@@ -1,4 +1,20 @@
-.footer-content {
+/* .footer-content {
+
+  .form-control,
+  .form-select,
+  .btn {
+    border-radius: 0 !important;
+    border: 0 !important;
+    padding: 1rem;
+    box-shadow: none !important;
+    font-size: smaller;
+    color: #777;
+  }
+  .form-control {
+    border: 1px solid #eee !important;
+  }
+} */
+
     .form-control,
     .form-select,
     .btn {
@@ -36,3 +52,4 @@
     margin: 0 10px; 
   }
   
+

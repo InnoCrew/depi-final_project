@@ -14,7 +14,10 @@ const FooterContent = () => {
       <div className="row text-center">
         {/* Where We Are Now */}
         <div className="col-md-4 mb-4">
+
+          <h6 className="section-title">Where we are now</h6>
           <h6 className="footer-title">Where we are now</h6>
+
           <img
             src="src/assets/img/footer-map-img.png"
             alt="World Map"
@@ -24,6 +27,7 @@ const FooterContent = () => {
 
         {/* Follow Us */}
         <div className="col-md-4 mb-4">
+          <h6 className="section-title">Follow us</h6>
           <h6 className="footer-title">Follow us</h6>
           <div className="d-flex justify-content-center gap-3 my-3">
             <a href="#" className="text-dark">
@@ -48,6 +52,7 @@ const FooterContent = () => {
         </div>
         {/* Newsletter */}
         <div className="col-md-4 mb-4">
+          <h6 className="section-title">Newsletter</h6>
           <h6 className="footer-title">Newsletter</h6>
           <form className="d-flex flex-column align-items-center my-3">
             <input

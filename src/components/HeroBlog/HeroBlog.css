@@ -1,0 +1,11 @@
+.blog-hero {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-image: url("src/assets/img/buzzblog-emily-3.webp");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(80%);
+}

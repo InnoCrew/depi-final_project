@@ -30,7 +30,7 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary mb-3" sticky="top">
+    <Navbar expand="lg" className="bg-body-tertiary " sticky="top">
       <Container fluid className="px-4">
         <Navbar.Brand href="#home">
           <img

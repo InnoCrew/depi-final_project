@@ -1,0 +1,22 @@
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  position: relative;
+  text-align: center;
+  font-size: 1rem;
+  color: #565050;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-title::before,
+.section-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+  margin: 0 10px;
+}

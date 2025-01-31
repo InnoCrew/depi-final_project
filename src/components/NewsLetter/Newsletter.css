@@ -1,0 +1,39 @@
+.newsletter {
+  background-color: #e3f0ff;
+  border-radius: 2rem;
+  overflow: hidden;
+  height: 486px;
+  img {
+    height: 100%;
+  }
+  .btn.btn-brand-secondary {
+    padding: 12px 22px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    background-color: #fefa17;
+    border-radius: 50px;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
+  .btn:hover {
+    background-color: #e4e6e8;
+    color: #000;
+  }
+  h5 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  .form-control {
+    border: 0;
+    padding-left: 2rem !important;
+  }
+  .btn.btn-dark {
+    margin-left: -2rem !important;
+    z-index: 99;
+  }
+}

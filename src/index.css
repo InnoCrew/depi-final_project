@@ -6,7 +6,11 @@
   --heading-font: "Montserrat", serif !important;
   --paragraph-font: "Lora", serif !important;
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .bg-primary {
   background-color: var(--primary-color);
 }
