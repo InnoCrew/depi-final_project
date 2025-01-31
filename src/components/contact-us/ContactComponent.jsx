@@ -27,7 +27,7 @@ function ContactComponent() {
     <div>
       {/* First Section */}
       <div className="container my-5">
-        <div className="row align-items-center container1">
+        <div className="row align-items-center forcontainer">
           {/* Left Content */}
           <div className="col-12 col-md-12 col-lg-6 mb-4">
             <h1 className="h">Feel free to contact us anytime!</h1>
