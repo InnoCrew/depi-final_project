@@ -1,0 +1,6 @@
+.form-container{
+    width:80%;
+}
+.form-container >div{
+    width:100%;
+}

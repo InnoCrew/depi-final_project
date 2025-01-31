@@ -2,7 +2,6 @@ import {useEffect} from "react";
 import "./Contact.css";
 import img from '/contact-us-top-backround-img.png';
 
-
 function ContactComponent() {
   useEffect(() => {
     const forms = document.querySelectorAll(".needs-validation");
@@ -168,7 +167,9 @@ function ContactComponent() {
           </div>
         </div>
       </div>
+      
     </div>
+    
   );
 }
 

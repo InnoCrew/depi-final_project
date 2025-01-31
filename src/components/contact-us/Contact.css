@@ -4,13 +4,13 @@
     --background-color: white;
     --text-color: black;
   }
-.form-control {
+.inps {
     border: none; 
     border-bottom: 2px solid #007bff; 
     border-radius: 0; 
     box-shadow: none; 
 }
-.form-control:focus {
+.inps:focus {
     outline: none; 
     border-bottom: 2px solid #0056b3;
     box-shadow: none;
