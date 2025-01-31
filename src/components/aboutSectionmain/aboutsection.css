@@ -1,0 +1,19 @@
+.about-section {
+  height: 300px;
+  overflow: hidden;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+.about-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3rem; 
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  margin: 0;
+}

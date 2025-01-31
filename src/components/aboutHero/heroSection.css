@@ -1,0 +1,36 @@
+.hero-section {
+  width: 90%;
+  height: 481px;
+}
+
+.left-section img {
+  border-radius: 90px;
+}
+
+.right-section .title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.right-section p {
+  font-family: "Lora";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.secbtn {
+  width: 150px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #5e503f;
+  color: white;
+  border: #5e503f;
+}
+
+.secbtn:hover {
+  background-color: white;
+  border: white;
+  color: #5e503f;
+}

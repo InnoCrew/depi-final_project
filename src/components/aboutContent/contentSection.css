@@ -1,0 +1,20 @@
+.content-section {
+  width: 90%;
+  height: 481px;
+}
+
+.left-section img {
+  border-radius: 10px;
+}
+
+.right-section .title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.right-section p {
+  font-family: "Lora";
+  font-weight: 400;
+  font-size: 20px;
+}
