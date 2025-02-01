@@ -1,4 +1,5 @@
 import "./Newsletter.css";
+import image from "../../assets/img/subscriber.png"
 const Newsletter = () => {
   return (
     <div className="container newsletter my-5">
@@ -29,7 +30,7 @@ const Newsletter = () => {
         {/* Right Section (Image) */}
         <div className="col-md-4 col-lg  p-0 h-100 d-none d-md-block">
           <img
-            src="src/assets/img/subscriber.png"
+            src={image}
             alt="Resort Pool"
             className="img-fluid w-100 h-100 object-fit-cover "
           />

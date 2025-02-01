@@ -1,57 +1,34 @@
-import './BlogArticle.css';
-import img1 from '../../assets/img/2.webp';
-import img2 from '../../assets/img/3.webp';
-function BlogArticle(){
-    return(
-        <>
-        <div className="container container1">
-         <div className="content">
-            <p>
-                We are diving deep into the closets of your favorite stars to bring you the secrets of 
-                mimicking their best looks on a budget. From red carpet glam to casual streetwear 
-                chic, we have got the lowdown on affordable dupes, smart shopping tips, and DIY 
-                hacks that will have you looking like a million bucks without spending it.
-            </p>
+import "./BlogArticle.css";
+import img2 from "../../assets/img/3.webp";
+import { Image } from "react-bootstrap";
+
+function BlogArticle({ content }) {
+  // Split the content into two parts
+  const contentParts = content.text.split(/(?<=\S)\s+(?=\S)/); // Split by spaces while preserving words
+  const halfLength = Math.ceil(contentParts.length / 2);
+  const firstHalf = contentParts.slice(0, halfLength).join(" ");
+  const secondHalf = contentParts.slice(halfLength).join(" ");
+
+  return (
+    <>
+      <div className="container container1">
+        <div className="content">
+          <p>{firstHalf}</p>
         </div>
         <div className="row">
-           
-            <div className="col-md-6">
-                <div className="image-container">
-                    <img src={img1} alt="White Irises"/>
-                </div>
-                <div className="title">
-                    <p>White Irises</p>
-                </div>
-                <div className="author">
-                   <p> Lily Collins</p>
-                </div>
+          <div className="col-md-12">
+            <div className="image-container">
+              <Image src={content.image} />
             </div>
-    
-           
-            <div className="col-md-6">
-                <div className="title">
-                    <p>Cherry Blossom</p>
-                </div>
-                <div className="author">
-                   <p> Lily Collins</p>
-                </div>
-                <div className="image-container">
-                    <img src={img2} alt="Cherry Blossom"/>
-                </div>  
-            </div>
+          </div>
         </div>
-    
-        
+
         <div className="content">
-            <p>
-                We are diving deep into the closets of your favorite stars to bring you the secrets of 
-                mimicking their best looks on a budget. From red carpet glam to casual streetwear 
-                chic, we have got the lowdown on affordable dupes, smart shopping tips, and DIY 
-                hacks that will have you looking like a million bucks without spending it.
-            </p>
+          <p>{secondHalf}</p>
         </div>
-    </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
+
 export default BlogArticle;

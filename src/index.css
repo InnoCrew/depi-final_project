@@ -11,6 +11,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: var(--paragraph-font);
+}
+
 .bg-primary {
   background-color: var(--primary-color);
 }

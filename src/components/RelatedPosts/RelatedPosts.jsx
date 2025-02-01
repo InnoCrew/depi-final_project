@@ -1,39 +1,21 @@
-import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "./RelatedPosts.css";
+import { Link } from "react-router-dom";
 
-const relatedPosts = [
-  {
-    title: "Achieving Your Goals: How Business Consulting Helps",
-    date: "02/27/2024",
-    image: "src/assets/img/Gemini_Generated_Image_43pkjf43pkjf43pk.jpeg",
-  },
-  {
-    title: "The Power of Leadership Coaching in Business",
-    date: "02/27/2024",
-    image: "src/assets/img/Gemini_Generated_Image_90576r90576r9057.jpeg",
-  },
-  {
-    title: "Innovative Solutions: Insights from Business Consulting",
-    date: "02/27/2024",
-    image: "src/assets/img/Gemini_Generated_Image_90576r90576r9057modify.jpeg",
-  },
-  {
-    title: "Why Entrepreneurs Need Business Coaching",
-    date: "02/27/2024",
-    image: "src/assets/img/Gemini_Generated_Image_v51h75v51h75v51h.jpeg",
-  },
-];
+const RelatedPosts = ({ currentPostCategory, blogs }) => {
+  // Filter blogs to only include posts in the same category as the current post
+  const filteredPosts = blogs.filter(
+    (blog) => blog.category === currentPostCategory
+  );
 
-const RelatedPosts = () => {
   return (
-    <div className=" related-posts my-5">
+    <div className="related-posts my-5">
       <h5 className="text-center section-title mb-4">You Might Also Like</h5>
       <Swiper
-        className="container "
+        className="container"
         modules={[Navigation, Autoplay]}
         spaceBetween={10}
         slidesPerView={3}
@@ -49,15 +31,21 @@ const RelatedPosts = () => {
           1024: { slidesPerView: 3 },
         }}
       >
-        {relatedPosts.map((post, index) => (
-          <SwiperSlide key={index}>
-            <div className="blog-card  text-center">
-              <img
-                src={post.image}
-                alt={post.title}
-                className="img-fluid rounded"
-              />
-              <h6 className="mt-3 ">{post.title}</h6>
+        {filteredPosts.map((post) => (
+          <SwiperSlide key={post.id}>
+            <div className="blog-card text-center">
+              <Link to={`/blogs/${post.id}`}>
+                <img
+                  src={post.coverImage}
+                  alt={post.title}
+                  className="img-fluid rounded"
+                />
+              </Link>
+              <h6 className="mt-3">
+                <Link to={`/blogs/${post.id}`} className="text-decoration-none">
+                  {post.title}
+                </Link>
+              </h6>
               <p className="text-muted">{post.date}</p>
             </div>
           </SwiperSlide>

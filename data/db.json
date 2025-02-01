@@ -1,0 +1,565 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Exploring the Wonders of Bali",
+      "author": {
+        "name": "John Doe",
+        "profilePicture": "https://randomuser.me/api/portraits/men/10.jpg",
+        "jobTitle": "Travel Photographer",
+        "description": "John is a passionate travel photographer who has visited over 50 countries. He loves capturing the beauty of nature and sharing his experiences through his blogs."
+      },
+      "date": "2023-10-15",
+      "category": "Adventure",
+      "coverImage": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade",
+      "content": {
+        "text": "Bali, known as the Island of the Gods, is a tropical paradise that offers stunning beaches, lush rice terraces, and vibrant culture. My journey began in Ubud, the cultural heart of Bali. One of the highlights of my trip was visiting the Tegallalang Rice Terraces. The lush green fields and the intricate irrigation system are a testament to Bali's agricultural heritage. The warm hospitality of the locals and the serene atmosphere made this trip unforgettable. I also explored the sacred Monkey Forest, where playful macaques roam freely among ancient temples. The blend of spirituality and natural beauty in Bali is truly unique. Whether you're surfing in Kuta, meditating in Ubud, or diving in Nusa Penida, Bali offers something for every traveler.",
+        "image": "https://images.unsplash.com/photo-1526779259212-939e64788e3c"
+      },
+      "comments": [
+        {
+          "author": "Jane Smith",
+          "date": "2023-10-16",
+          "hour": "14:30",
+          "profilePicture": "https://randomuser.me/api/portraits/women/1.jpg",
+          "text": "This blog brought back so many memories of my trip to Bali! The rice terraces are truly breathtaking."
+        },
+        {
+          "author": "Mike Johnson",
+          "date": "2023-10-17",
+          "hour": "09:15",
+          "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+          "text": "Great post! I can't wait to visit Bali someday."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "A Weekend in Paris",
+      "author": {
+        "name": "Emily Clark",
+        "profilePicture": "https://randomuser.me/api/portraits/women/11.jpg",
+        "jobTitle": "Lifestyle Blogger",
+        "description": "Emily is a lifestyle blogger who loves exploring cities and sharing her travel tips. She believes every city has a unique story to tell."
+      },
+      "date": "2023-09-20",
+      "category": "City Travel",
+      "coverImage": "https://images.unsplash.com/photo-1431274172761-fca41d930114",
+      "content": {
+        "text": "Paris, the City of Light, is a dream destination for many. My weekend getaway started with a visit to the iconic Eiffel Tower, followed by a stroll along the Seine River. No trip to Paris is complete without exploring the Louvre Museum. The art and history housed within its walls are simply awe-inspiring. The charming streets, cozy cafes, and the vibrant atmosphere made this trip unforgettable. I also visited Montmartre, where artists paint en plein air, and the Sacré-Cœur Basilica offers panoramic views of the city. Paris is a city that captivates your heart with its timeless beauty and romantic charm.",
+        "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a"
+      },
+      "comments": [
+        {
+          "author": "Sarah Lee",
+          "date": "2023-09-21",
+          "hour": "18:45",
+          "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+          "text": "Paris is my favorite city! Your blog captured its magic perfectly."
+        },
+        {
+          "author": "David Brown",
+          "date": "2023-09-22",
+          "hour": "11:00",
+          "profilePicture": "https://randomuser.me/api/portraits/men/2.jpg",
+          "text": "I’ve always wanted to visit the Louvre. Your photos are stunning!"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Hiking the Grand Canyon",
+      "author": {
+        "name": "Michael Adams",
+        "profilePicture": "https://randomuser.me/api/portraits/men/12.jpg",
+        "jobTitle": "Outdoor Enthusiast",
+        "description": "Michael is an outdoor enthusiast who loves hiking, camping, and exploring nature. He shares his adventures to inspire others to connect with the great outdoors."
+      },
+      "date": "2023-08-10",
+      "category": "Nature",
+      "coverImage": "https://images.unsplash.com/photo-1509316785289-025f5b846b35",
+      "content": {
+        "text": "The Grand Canyon is one of the most awe-inspiring natural wonders in the world. My hiking adventure began at the South Rim, where the views are simply breathtaking. As I descended into the canyon, the landscape changed dramatically. The vibrant colors of the rock formations and the sheer scale of the canyon are unforgettable. The peace and tranquility of the canyon made this trip a truly spiritual experience. I hiked the Bright Angel Trail, which offered stunning views of the Colorado River and the canyon's layered rock formations. The Grand Canyon is a place that reminds you of the Earth's ancient history and the power of nature.",
+        "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35"
+      },
+      "comments": [
+        {
+          "author": "Laura Wilson",
+          "date": "2023-08-11",
+          "hour": "16:20",
+          "profilePicture": "https://randomuser.me/api/portraits/women/3.jpg",
+          "text": "The Grand Canyon is on my bucket list. Your blog has inspired me to plan a trip soon!"
+        },
+        {
+          "author": "Chris Evans",
+          "date": "2023-08-12",
+          "hour": "10:10",
+          "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg",
+          "text": "Amazing photos! Hiking the Grand Canyon must have been an incredible experience."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Exploring the Temples of Kyoto",
+      "author": {
+        "name": "Olivia Brown",
+        "profilePicture": "https://randomuser.me/api/portraits/women/13.jpg",
+        "jobTitle": "Cultural Explorer",
+        "description": "Olivia is a cultural explorer who is passionate about history and traditions. She enjoys immersing herself in different cultures and sharing her discoveries."
+      },
+      "date": "2023-06-15",
+      "category": "Cultural",
+      "coverImage": "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3",
+      "content": {
+        "text": "Kyoto, Japan’s cultural capital, is home to some of the most beautiful temples and gardens. My first stop was the iconic Fushimi Inari Shrine, famous for its thousands of red torii gates. I also visited the serene Kinkaku-ji, the Golden Pavilion. The reflection of the temple in the surrounding pond was absolutely mesmerizing. The blend of history, culture, and natural beauty made this trip unforgettable. I also explored the Arashiyama Bamboo Grove, where towering bamboo stalks create a peaceful and otherworldly atmosphere. Kyoto is a city that transports you back in time with its rich traditions and stunning architecture.",
+        "image": "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3"
+      },
+      "comments": [
+        {
+          "author": "Liam Johnson",
+          "date": "2023-06-16",
+          "hour": "13:50",
+          "profilePicture": "https://randomuser.me/api/portraits/men/4.jpg",
+          "text": "Kyoto is such a beautiful city. Your blog makes me want to visit again!"
+        },
+        {
+          "author": "Ava Williams",
+          "date": "2023-06-17",
+          "hour": "08:05",
+          "profilePicture": "https://randomuser.me/api/portraits/women/4.jpg",
+          "text": "The Fushimi Inari Shrine is one of my favorite places in Japan. Great post!"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Road Trip Along the Amalfi Coast",
+      "author": {
+        "name": "James Wilson",
+        "profilePicture": "https://randomuser.me/api/portraits/men/14.jpg",
+        "jobTitle": "Travel Writer",
+        "description": "James is a travel writer who loves road trips and exploring scenic routes. He enjoys documenting his journeys and sharing tips for fellow travelers."
+      },
+      "date": "2023-05-10",
+      "category": "Road Trip",
+      "coverImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+      "content": {
+        "text": "The Amalfi Coast in Italy is one of the most scenic drives in the world. My road trip started in Sorrento, with its stunning views of the Mediterranean Sea. Driving through the picturesque towns of Positano and Amalfi was an unforgettable experience. The colorful houses perched on cliffs are a sight to behold. The combination of breathtaking views, delicious food, and warm hospitality made this trip unforgettable. I also visited the island of Capri, where the Blue Grotto left me in awe of its natural beauty. The Amalfi Coast is a destination that will leave you speechless at every turn.",
+        "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963"
+      },
+      "comments": [
+        {
+          "author": "Mia Brown",
+          "date": "2023-05-11",
+          "hour": "17:30",
+          "profilePicture": "https://randomuser.me/api/portraits/women/5.jpg",
+          "text": "The Amalfi Coast is breathtaking. Your blog makes me want to pack my bags and go!"
+        },
+        {
+          "author": "Noah Davis",
+          "date": "2023-05-12",
+          "hour": "12:15",
+          "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg",
+          "text": "I’ve always wanted to drive along the Amalfi Coast. Your photos are stunning!"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Discovering the Beauty of Iceland",
+      "author": {
+        "name": "Charlotte Taylor",
+        "profilePicture": "https://randomuser.me/api/portraits/women/15.jpg",
+        "jobTitle": "Nature Photographer",
+        "description": "Charlotte is a nature photographer who specializes in capturing the raw beauty of landscapes. She is passionate about environmental conservation."
+      },
+      "date": "2023-04-05",
+      "category": "Nature",
+      "coverImage": "https://images.unsplash.com/photo-1476610182048-b716b8518aae",
+      "content": {
+        "text": "Iceland is a land of fire and ice, with its dramatic landscapes of volcanoes, glaciers, and waterfalls. My journey began at the stunning Seljalandsfoss waterfall. The highlight of my trip was visiting the Jökulsárlón Glacier Lagoon. The floating icebergs and the serene beauty of the lagoon were truly magical. The raw, untouched beauty of Iceland made this trip unforgettable. I also explored the Golden Circle, where the Geysir geothermal area and Thingvellir National Park showcase Iceland's geological wonders. Iceland is a place where nature's power and beauty are on full display.",
+        "image": "https://images.unsplash.com/photo-1476610182048-b716b8518aae"
+      },
+      "comments": [
+        {
+          "author": "William Anderson",
+          "date": "2023-04-06",
+          "hour": "14:00",
+          "profilePicture": "https://randomuser.me/api/portraits/men/6.jpg",
+          "text": "Iceland is a dream destination. Your blog captures its beauty perfectly!"
+        },
+        {
+          "author": "Sophia Martinez",
+          "date": "2023-04-07",
+          "hour": "09:45",
+          "profilePicture": "https://randomuser.me/api/portraits/women/6.jpg",
+          "text": "The Glacier Lagoon looks incredible. I can’t wait to visit someday!"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "A Culinary Journey Through Thailand",
+      "author": {
+        "name": "Ethan Harris",
+        "profilePicture": "https://randomuser.me/api/portraits/men/16.jpg",
+        "jobTitle": "Food Blogger",
+        "description": "Ethan is a food blogger who loves exploring cuisines from around the world. He enjoys cooking and sharing his culinary adventures with his readers."
+      },
+      "date": "2023-03-12",
+      "category": "Food",
+      "coverImage": "https://images.unsplash.com/photo-1526318896980-cf78c088247c",
+      "content": {
+        "text": "Thailand is a food lover’s paradise. My culinary journey began in Bangkok, where I sampled street food like pad Thai and mango sticky rice. In Chiang Mai, I took a cooking class and learned how to make traditional Thai dishes like green curry and tom yum soup. The flavors were incredible! The vibrant street food scene and the warmth of the Thai people made this trip unforgettable. I also explored the floating markets, where vendors sell fresh produce and delicious snacks from their boats. Thailand's cuisine is a perfect blend of sweet, sour, spicy, and savory flavors.",
+        "image": "https://images.unsplash.com/photo-1526318896980-cf78c088247c"
+      },
+      "comments": [
+        {
+          "author": "Amelia Clark",
+          "date": "2023-03-13",
+          "hour": "19:10",
+          "profilePicture": "https://randomuser.me/api/portraits/women/7.jpg",
+          "text": "Thai food is my favorite! Your blog made me hungry just reading it."
+        },
+        {
+          "author": "Lucas White",
+          "date": "2023-03-14",
+          "hour": "10:25",
+          "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg",
+          "text": "I’d love to take a cooking class in Chiang Mai. Great post!"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Exploring the Ancient Ruins of Machu Picchu",
+      "author": {
+        "name": "Ava Lewis",
+        "profilePicture": "https://randomuser.me/api/portraits/women/17.jpg",
+        "jobTitle": "History Buff",
+        "description": "Ava is a history enthusiast who loves exploring ancient ruins and learning about the past. She enjoys sharing her discoveries and insights with her readers."
+      },
+      "date": "2023-02-18",
+      "category": "History",
+      "coverImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377",
+      "content": {
+        "text": "Machu Picchu, the lost city of the Incas, is one of the most iconic archaeological sites in the world. My journey began with a scenic train ride through the Andes. Exploring the ancient ruins was a surreal experience. The precision of the stonework and the breathtaking views of the surrounding mountains were unforgettable. The sense of history and mystery made this trip truly magical. I also hiked the Inca Trail, which offered stunning views of the Andes and a deeper connection to the history of the Inca civilization. Machu Picchu is a place that leaves you in awe of human ingenuity and the beauty of nature.",
+        "image": "https://images.unsplash.com/photo-1526392060635-9d6019884377"
+      },
+      "comments": [
+        {
+          "author": "Benjamin Walker",
+          "date": "2023-02-19",
+          "hour": "15:40",
+          "profilePicture": "https://randomuser.me/api/portraits/men/8.jpg",
+          "text": "Machu Picchu is on my bucket list. Your blog has inspired me to plan a trip!"
+        },
+        {
+          "author": "Chloe Hall",
+          "date": "2023-02-20",
+          "hour": "08:55",
+          "profilePicture": "https://randomuser.me/api/portraits/women/8.jpg",
+          "text": "The views from Machu Picchu are incredible. Your photos are stunning!"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Relaxing in the Maldives",
+      "author": {
+        "name": "Mason Young",
+        "profilePicture": "https://randomuser.me/api/portraits/men/18.jpg",
+        "jobTitle": "Luxury Traveler",
+        "description": "Mason is a luxury traveler who enjoys exploring exotic destinations and staying in luxurious accommodations. He shares his experiences to inspire others to indulge in travel."
+      },
+      "date": "2023-01-05",
+      "category": "Beach",
+      "coverImage": "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2",
+      "content": {
+        "text": "The Maldives is the ultimate tropical paradise. My stay at an overwater bungalow was the perfect way to unwind and enjoy the crystal-clear waters. Snorkeling in the vibrant coral reefs was a highlight of my trip. The marine life was incredible, and the water was so clear! The tranquility and beauty of the Maldives made this trip unforgettable. I also enjoyed a sunset cruise, where dolphins danced in the waves, and a private dinner on the beach under the stars. The Maldives is a destination that feels like a dream come true.",
+        "image": "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2"
+      },
+      "comments": [
+        {
+          "author": "Ella Harris",
+          "date": "2023-01-06",
+          "hour": "12:30",
+          "profilePicture": "https://randomuser.me/api/portraits/women/9.jpg",
+          "text": "The Maldives looks like a dream destination. Your blog makes me want to book a trip!"
+        },
+        {
+          "author": "Jacob King",
+          "date": "2023-01-07",
+          "hour": "07:20",
+          "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg",
+          "text": "Overwater bungalows are my dream. Your photos are amazing!"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Safari Adventure in Kenya",
+      "author": {
+        "name": "Sophia Martinez",
+        "profilePicture": "https://randomuser.me/api/portraits/women/19.jpg",
+        "jobTitle": "Wildlife Photographer",
+        "description": "Sophia is a wildlife photographer who travels the world to capture the beauty of animals in their natural habitats."
+      },
+      "date": "2023-12-01",
+      "category": "Adventure",
+      "coverImage": "https://images.unsplash.com/photo-1523805009345-7448845a9e53",
+      "content": {
+        "text": "Kenya is a paradise for wildlife enthusiasts. My safari adventure began in the Maasai Mara, where I witnessed the Great Migration. Thousands of wildebeest and zebras crossed the Mara River, braving crocodiles and strong currents. The sight was both thrilling and humbling. I also visited Amboseli National Park, where elephants roam freely against the backdrop of Mount Kilimanjaro. The diversity of wildlife in Kenya is astounding, and the warm hospitality of the Maasai people made this trip unforgettable. Kenya is a destination that connects you with nature in its purest form.",
+        "image": "https://images.unsplash.com/photo-1523805009345-7448845a9e53"
+      },
+      "comments": [
+        {
+          "author": "Liam Johnson",
+          "date": "2023-12-02",
+          "hour": "10:15",
+          "profilePicture": "https://randomuser.me/api/portraits/men/10.jpg",
+          "text": "The Great Migration is a once-in-a-lifetime experience. Your photos are incredible!"
+        },
+        {
+          "author": "Ava Williams",
+          "date": "2023-12-03",
+          "hour": "14:45",
+          "profilePicture": "https://randomuser.me/api/portraits/women/10.jpg",
+          "text": "I’ve always wanted to go on a safari. Your blog has inspired me to plan a trip to Kenya!"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Exploring the Streets of Tokyo",
+      "author": {
+        "name": "Lucas White",
+        "profilePicture": "https://randomuser.me/api/portraits/men/20.jpg",
+        "jobTitle": "City Explorer",
+        "description": "Lucas is a city explorer who loves discovering the hidden gems of urban landscapes."
+      },
+      "date": "2023-11-10",
+      "category": "City Travel",
+      "coverImage": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+      "content": {
+        "text": "Tokyo is a city that seamlessly blends tradition and modernity. My journey began in Shibuya, where the iconic Shibuya Crossing is a testament to the city's vibrant energy. I also visited Asakusa, home to the historic Senso-ji Temple, and explored the trendy neighborhoods of Harajuku and Shimokitazawa. The food in Tokyo is a highlight, from sushi at Tsukiji Market to ramen in tiny alleyway shops. Tokyo is a city that never sleeps, and every corner offers something new to discover. Whether you're a fan of technology, fashion, or history, Tokyo has something for everyone.",
+        "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
+      },
+      "comments": [
+        {
+          "author": "Mia Brown",
+          "date": "2023-11-11",
+          "hour": "09:30",
+          "profilePicture": "https://randomuser.me/api/portraits/women/11.jpg",
+          "text": "Tokyo is my dream destination! Your blog makes me want to book a trip right now."
+        },
+        {
+          "author": "Noah Davis",
+          "date": "2023-11-12",
+          "hour": "16:20",
+          "profilePicture": "https://randomuser.me/api/portraits/men/11.jpg",
+          "text": "The food in Tokyo looks amazing. I can’t wait to try it someday!"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Hiking in the Swiss Alps",
+      "author": {
+        "name": "William Anderson",
+        "profilePicture": "https://randomuser.me/api/portraits/men/12.jpg",
+        "jobTitle": "Mountain Enthusiast",
+        "description": "William is a mountain enthusiast who loves hiking and exploring the world's most stunning peaks."
+      },
+      "date": "2023-10-05",
+      "category": "Nature",
+      "coverImage": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce",
+      "content": {
+        "text": "The Swiss Alps are a hiker's paradise. My adventure began in Zermatt, where the iconic Matterhorn dominates the skyline. I hiked the Five Lakes Walk, which offered stunning views of the mountain reflected in crystal-clear lakes. I also explored the Lauterbrunnen Valley, known as the 'Valley of 72 Waterfalls.' The beauty of the Swiss Alps is unparalleled, with snow-capped peaks, lush meadows, and charming alpine villages. Whether you're an experienced hiker or a casual walker, the Swiss Alps offer trails for every level. This trip was a perfect blend of adventure and relaxation.",
+        "image": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce"
+      },
+      "comments": [
+        {
+          "author": "Sophia Martinez",
+          "date": "2023-10-06",
+          "hour": "12:45",
+          "profilePicture": "https://randomuser.me/api/portraits/women/12.jpg",
+          "text": "The Swiss Alps are breathtaking. Your photos make me want to pack my hiking boots!"
+        },
+        {
+          "author": "Liam Johnson",
+          "date": "2023-10-07",
+          "hour": "08:10",
+          "profilePicture": "https://randomuser.me/api/portraits/men/12.jpg",
+          "text": "I’ve always wanted to hike in the Swiss Alps. Your blog has inspired me to plan a trip!"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "A Culinary Journey Through Italy",
+      "author": {
+        "name": "Amelia Clark",
+        "profilePicture": "https://randomuser.me/api/portraits/women/13.jpg",
+        "jobTitle": "Food Blogger",
+        "description": "Amelia is a food blogger who loves exploring the culinary traditions of different cultures."
+      },
+      "date": "2023-09-15",
+      "category": "Food",
+      "coverImage": "https://images.unsplash.com/photo-1533777324565-a040eb52facd",
+      "content": {
+        "text": "Italy is a food lover's dream. My culinary journey began in Rome, where I indulged in authentic pasta dishes like carbonara and cacio e pepe. In Florence, I tried the famous bistecca alla Fiorentina, a mouthwatering T-bone steak. I also visited Bologna, the culinary capital of Italy, where I learned how to make fresh pasta from scratch. The food in Italy is a celebration of fresh ingredients and traditional recipes. From pizza in Naples to gelato in Sicily, every bite is a taste of heaven. Italy is a destination that will satisfy your taste buds and your soul.",
+        "image": "https://images.unsplash.com/photo-1533777324565-a040eb52facd"
+      },
+      "comments": [
+        {
+          "author": "Lucas White",
+          "date": "2023-09-16",
+          "hour": "18:20",
+          "profilePicture": "https://randomuser.me/api/portraits/men/13.jpg",
+          "text": "Italian food is my favorite! Your blog made me hungry just reading it."
+        },
+        {
+          "author": "Mia Brown",
+          "date": "2023-09-17",
+          "hour": "10:05",
+          "profilePicture": "https://randomuser.me/api/portraits/women/13.jpg",
+          "text": "I’d love to take a cooking class in Italy. Great post!"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Exploring the Ruins of Rome",
+      "author": {
+        "name": "Benjamin Walker",
+        "profilePicture": "https://randomuser.me/api/portraits/men/14.jpg",
+        "jobTitle": "History Buff",
+        "description": "Benjamin is a history enthusiast who loves exploring ancient ruins and learning about the past."
+      },
+      "date": "2023-08-20",
+      "category": "History",
+      "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+      "content": {
+        "text": "Rome is a city steeped in history. My journey began at the Colosseum, where I imagined the gladiators battling in front of roaring crowds. I also visited the Roman Forum, the heart of ancient Rome, and the Pantheon, a marvel of ancient engineering. The Vatican City, with its stunning St. Peter's Basilica and the Sistine Chapel, was another highlight of my trip. Rome is a city where every corner tells a story, and the past comes alive in its ruins and monuments. This trip was a journey through time, and I left with a deeper appreciation for the legacy of the Roman Empire.",
+        "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5"
+      },
+      "comments": [
+        {
+          "author": "Chloe Hall",
+          "date": "2023-08-21",
+          "hour": "14:30",
+          "profilePicture": "https://randomuser.me/api/portraits/women/14.jpg",
+          "text": "Rome is such a fascinating city. Your blog makes me want to visit again!"
+        },
+        {
+          "author": "Jacob King",
+          "date": "2023-08-22",
+          "hour": "09:15",
+          "profilePicture": "https://randomuser.me/api/portraits/men/14.jpg",
+          "text": "The Colosseum is incredible. Your photos are stunning!"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Relaxing in the Seychelles",
+      "author": {
+        "name": "Ella Harris",
+        "profilePicture": "https://randomuser.me/api/portraits/women/15.jpg",
+        "jobTitle": "Luxury Traveler",
+        "description": "Ella is a luxury traveler who enjoys exploring exotic destinations and staying in luxurious accommodations."
+      },
+      "date": "2023-07-10",
+      "category": "Beach",
+      "coverImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21",
+      "content": {
+        "text": "The Seychelles is a tropical paradise. My stay at a beachfront villa was the perfect way to unwind and enjoy the crystal-clear waters. Snorkeling in the vibrant coral reefs was a highlight of my trip. The marine life was incredible, and the water was so clear! The tranquility and beauty of the Seychelles made this trip unforgettable. I also enjoyed a sunset cruise, where dolphins danced in the waves, and a private dinner on the beach under the stars. The Seychelles is a destination that feels like a dream come true.",
+        "image": "https://images.unsplash.com/photo-1506929562872-bb421503ef21"
+      },
+      "comments": [
+        {
+          "author": "Sophia Martinez",
+          "date": "2023-07-11",
+          "hour": "12:30",
+          "profilePicture": "https://randomuser.me/api/portraits/women/15.jpg",
+          "text": "The Seychelles looks like a dream destination. Your blog makes me want to book a trip!"
+        },
+        {
+          "author": "Liam Johnson",
+          "date": "2023-07-12",
+          "hour": "07:20",
+          "profilePicture": "https://randomuser.me/api/portraits/men/15.jpg",
+          "text": "Overwater bungalows are my dream. Your photos are amazing!"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Exploring the Streets of New York",
+      "author": {
+        "name": "Jacob King",
+        "profilePicture": "https://randomuser.me/api/portraits/men/16.jpg",
+        "jobTitle": "City Explorer",
+        "description": "Jacob is a city explorer who loves discovering the hidden gems of urban landscapes."
+      },
+      "date": "2023-06-05",
+      "category": "City Travel",
+      "coverImage": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee",
+      "content": {
+        "text": "New York City is a city that never sleeps. My journey began in Times Square, where the bright lights and bustling energy are overwhelming in the best way. I also visited Central Park, a peaceful oasis in the middle of the city, and the Statue of Liberty, a symbol of freedom and hope. The food in New York is a highlight, from pizza in Brooklyn to bagels in Manhattan. New York is a city that offers something for everyone, whether you're a fan of art, music, or food. This trip was a whirlwind of excitement and discovery.",
+        "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee"
+      },
+      "comments": [
+        {
+          "author": "Mia Brown",
+          "date": "2023-06-06",
+          "hour": "09:30",
+          "profilePicture": "https://randomuser.me/api/portraits/women/16.jpg",
+          "text": "New York is my dream destination! Your blog makes me want to book a trip right now."
+        },
+        {
+          "author": "Noah Davis",
+          "date": "2023-06-07",
+          "hour": "16:20",
+          "profilePicture": "https://randomuser.me/api/portraits/men/16.jpg",
+          "text": "The food in New York looks amazing. I can’t wait to try it someday!"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Hiking in Patagonia",
+      "author": {
+        "name": "Sophia Martinez",
+        "profilePicture": "https://randomuser.me/api/portraits/women/17.jpg",
+        "jobTitle": "Mountain Enthusiast",
+        "description": "Sophia is a mountain enthusiast who loves hiking and exploring the world's most stunning peaks."
+      },
+      "date": "2023-05-10",
+      "category": "Nature",
+      "coverImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+      "content": {
+        "text": "Patagonia is a hiker's paradise. My adventure began in Torres del Paine National Park, where the iconic granite towers rise dramatically from the landscape. I hiked the W Trek, which offered stunning views of glaciers, lakes, and mountains. The beauty of Patagonia is unparalleled, with its rugged landscapes and pristine wilderness. Whether you're an experienced hiker or a casual walker, Patagonia offers trails for every level. This trip was a perfect blend of adventure and relaxation, and I left with a deep appreciation for the natural world.",
+        "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba"
+      },
+      "comments": [
+        {
+          "author": "Liam Johnson",
+          "date": "2023-05-11",
+          "hour": "12:45",
+          "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg",
+          "text": "Patagonia is breathtaking. Your photos make me want to pack my hiking boots!"
+        },
+        {
+          "author": "Ava Williams",
+          "date": "2023-05-12",
+          "hour": "08:10",
+          "profilePicture": "https://randomuser.me/api/portraits/women/17.jpg",
+          "text": "I’ve always wanted to hike in Patagonia. Your blog has inspired me to plan a trip!"
+        }
+      ]
+    }
+  ]
+}
