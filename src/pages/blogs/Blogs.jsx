@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import "./blogs.css";
 import Loader from "../../components/loader/Loader";
 import { Image } from "react-bootstrap";
+import TrendingNow from "../../components/trendingNow/TrendingNow";
+import RecentPosts from "../../components/recentPosts/RecentPosts";
 
 const App = () => {
   const [blogs, setBlogs] = useState([]); // All blogs fetched from the API
@@ -138,12 +140,15 @@ const App = () => {
 
       {/* Load More Button */}
       {visibleBlogs < filteredBlogs.length && (
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center mb-4">
           <button onClick={loadMoreBlogs} className="load-more-btn">
             Load More
           </button>
         </div>
       )}
+
+      <TrendingNow />
+      <RecentPosts />
     </div>
   );
 };

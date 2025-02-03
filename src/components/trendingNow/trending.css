@@ -1,0 +1,161 @@
+.trending {
+    background-image: url('../../assets/img/bg-line.png');
+    background-color: #FEF1EC;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  
+  /* Swiper Container */
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Hide Pagination (Dots) */
+  .swiper-pagination {
+    display: none !important;
+  }
+  
+  /* Hide Navigation (Next/Prev Buttons) */
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+  
+  /* Card styles */
+  .card-news {
+    background-color: transparent;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    display: block;
+    position: relative;
+    height: fit-content;
+    display: flex;
+    
+  }
+  
+  .card-news:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    padding-top: 70%;
+    overflow: hidden;
+  }
+  
+  .card-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .card-image .label {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1c1c1c;
+    z-index: 3;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .card-image .label:hover {
+    color: #007bff;
+  }
+  
+  .card-body {
+    position: relative;
+    background-color: white;
+    border-radius: 50px 50px 0 0;
+    padding: 24px;
+    z-index: 1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+  }
+  
+  .card-info {
+    border-radius: 15px;
+  }
+  
+  .card-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+  
+  .card-meta span {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.875rem;
+    color: #6c757d;
+    gap: 4px;
+  }
+  
+  .card-meta .icon {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .card-title {
+    margin-bottom: 20px;
+  }
+  
+  .card-title a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card-title a:hover {
+    color: #007bff;
+  }
+  
+  .card-author {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+  
+  .card-author img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .card-author p {
+    margin: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .section-box {
+      padding: 40px 0;
+    }
+  
+    .card-meta {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  }
