@@ -9,7 +9,8 @@ import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
 import Blogs from "./pages/blogs/Blogs";
 import BlogDetails from "./pages/blogs/blogDetails/BlogDetails";
-
+import Login from "./pages/login/login";
+import NotFound from "./pages/NotFound/NotFound";
 function App() {
   return (
     <Router>
@@ -20,6 +21,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:id" element={<BlogDetails />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </Router>

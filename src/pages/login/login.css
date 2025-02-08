@@ -1,0 +1,60 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #07180d;
+
+  .container {
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  input:focus {
+    border: 2px solid #a8b0b3;
+    box-shadow: none;
+  }
+  label {
+    color: #a8b0b3;
+  }
+
+  .form-check label {
+    color: #4a5345 !important;
+    cursor: pointer;
+  }
+
+  #rememberMe:checked {
+    background-color: #4a5345;
+  }
+  a {
+    text-decoration: none;
+    color: #a8b0b3;
+  }
+  p {
+    color: #4a5345;
+  }
+  > div {
+    min-height: 70vh !important;
+  }
+
+  .btn {
+    width: 150px;
+    padding: 0.6rem 0;
+    text-align: center;
+  }
+  .btn-fill {
+    background-color: #4a5345;
+    color: white;
+  }
+  .btn-outline {
+    color: #4a5345;
+    border: 2px solid #4a5345;
+  }
+  .btn-fill:hover {
+    background-color: #558f4c;
+    color: white;
+  }
+  .btn-outline:hover {
+    background-color: #4a5345;
+    color: white;
+  }
+}
