@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import "./login.css";
+import { Container, Row, Col, Form } from "react-bootstrap";
+import "./auth.css";
+import { Link } from "react-router-dom";
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -101,9 +102,12 @@ const Login = () => {
                 </a>
               </Col>
               <Col>
-                <a href="#" className="text-decoration-none btn btn-outline">
+                <Link
+                  to="/signup"
+                  className="text-decoration-none btn btn-outline"
+                >
                   Create account
-                </a>
+                </Link>
               </Col>
             </div>
           </Form>

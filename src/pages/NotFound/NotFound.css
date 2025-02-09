@@ -1,6 +1,5 @@
 .not-found {
-  background-color: #f6f3ec;
-  font-family: ivypresto-display, serif;
+  background-color: #fff;
   .page-title {
     width: 100%;
     font-size: 420px;
@@ -29,9 +28,10 @@
     color: white;
     font-size: 1.5rem;
     padding: 10px 20px;
-    background-color: #d8a01d;
+    background-color: #000;
   }
   .home-btn:hover {
-    background-color: #c88c00;
+    background-color: #fff;
+    color: #000;
   }
 }

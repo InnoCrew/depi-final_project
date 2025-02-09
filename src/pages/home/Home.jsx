@@ -1,9 +1,10 @@
+import { Container } from "react-bootstrap";
 
 const Home = () => {
   return (
-    <>
-      <h1>Home</h1>
-    </>
+    <Container>
+      <Destinations />
+    </Container>
   );
 };
 

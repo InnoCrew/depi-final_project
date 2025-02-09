@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #07180d;
 
   .container {
@@ -42,19 +41,20 @@
     text-align: center;
   }
   .btn-fill {
-    background-color: #4a5345;
+    background-color: #000;
     color: white;
+    border: 2px solid #000 !important;
   }
   .btn-outline {
-    color: #4a5345;
-    border: 2px solid #4a5345;
+    color: #000;
+    border: 2px solid #000;
   }
   .btn-fill:hover {
-    background-color: #558f4c;
-    color: white;
+    background-color: #fff;
+    color: black;
   }
   .btn-outline:hover {
-    background-color: #4a5345;
+    background-color: #000;
     color: white;
   }
 }

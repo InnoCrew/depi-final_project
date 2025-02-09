@@ -7,9 +7,11 @@ import {
   Container,
   Offcanvas,
 } from "react-bootstrap";
-import { FaGlobe, FaMoon, FaSun, FaUser } from "react-icons/fa";
+import { FaGlobe, FaMoon, FaSun } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import "../../index.css";
 import "./navbar.css";
+import { TbCategory2 } from "react-icons/tb";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -22,6 +24,7 @@ const navLinks = [
 
 const NavBar = () => {
   const [theme, setTheme] = useState("light");
+  const [lang, setLang] = useState("EN");
 
   const toggleTheme = () => {
     const newTheme = theme === "light" ? "dark" : "light";
@@ -42,7 +45,14 @@ const NavBar = () => {
           />{" "}
           <span className="font-paragraph fw-medium fs-4">Polaris</span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
+        <Navbar.Toggle
+          aria-controls="offcanvasNavbar-expand-lg"
+          className="ms-2 order-5 border-0 "
+        >
+          <span className="toggler"></span>
+          <span className="toggler"></span>
+          <span className="toggler"></span>
+        </Navbar.Toggle>
         <Navbar.Offcanvas
           id="offcanvasNavbar-expand-lg"
           aria-labelledby="offcanvasNavbarLabel-expand-lg"
@@ -63,38 +73,26 @@ const NavBar = () => {
                   key={index}
                   as={NavLink}
                   to={link.path}
-                  className="navbar-link text-center"
+                  className="navbar-link text-center text-black"
                 >
                   {link.name}
                 </Nav.Link>
               ))}
             </Nav>
 
-            <div className="d-flex align-items-center gap-4">
-              {/* Profile Dropdown */}
-              <NavDropdown title={<FaUser />} id="dropdown-profile" align="end">
-                <NavDropdown.Item as={NavLink} to="/profile">
-                  My Profile
-                </NavDropdown.Item>
-                <NavDropdown.Item as={NavLink} to="/settings">
-                  Settings
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#logout">Logout</NavDropdown.Item>
-              </NavDropdown>
-
+            <div className="d-flex align-items-center justify-content-between gap-2 pe-4">
               {/* Language Dropdown */}
-              <NavDropdown
-                title={<FaGlobe />}
-                id="dropdown-language"
-                className=""
-                align="end"
-              >
-                <NavDropdown.Item>Arabic (AR)</NavDropdown.Item>
-                <NavDropdown.Item>English (EN)</NavDropdown.Item>
-                <NavDropdown.Item>Español (ES)</NavDropdown.Item>
-                <NavDropdown.Item>Français (FR)</NavDropdown.Item>
-              </NavDropdown>
+              <div className="flex-lg-fill d-flex align-items-center gap-1">
+                <FaGlobe />
+                <NavDropdown title={lang} id="dropdown-language" align="end">
+                  <NavDropdown.Item onClick={() => setLang("AR")}>
+                    Arabic (AR)
+                  </NavDropdown.Item>
+                  <NavDropdown.Item onClick={() => setLang("EN")}>
+                    English (EN)
+                  </NavDropdown.Item>
+                </NavDropdown>
+              </div>
 
               {/* Theme Toggle Button */}
               <Button
@@ -104,9 +102,20 @@ const NavBar = () => {
               >
                 {theme === "light" ? <FaMoon /> : <FaSun />}
               </Button>
+
+              {/* Sign In Button */}
             </div>
+            <Button variant="outline-dark" as={NavLink} to="/login">
+              Sign In
+            </Button>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
+        <Button
+          variant=""
+          className="bg-yellow  text-black profile-btn main-transition hover-bg-white ms-md-2 order-4 ms-auto"
+        >
+          <TbCategory2 size={20} />
+        </Button>
       </Container>
     </Navbar>
   );

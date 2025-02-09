@@ -1,11 +1,58 @@
-
+:root {
+  --light-cyan: #e3f0ff;
+  --orange-color: #f09814 !important;
+  --yellow-color: #fefa17 !important;
+  --text-color: #737373 !important;
+  --section-bg: #fff0ec !important;
+  --gray-bg: #f2f4f6 !important;
+  --dark-grey-bg: #e4e6e8 !important;
+  --dark-text: #575756 !important;
+  --light-text: #8e8e8e !important;
+  --main-transition: all 0.3s ease !important;
+  --body-font: "Manrope", serif !important;
+}
 
 .theme-toggle {
   color: var(--text-primary) !important;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler {
+  width: 1.5rem !important;
+  margin-left: 1rem !important;
+  margin-right: 1rem;
+  height: 1rem;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+
+  &:hover {
+    .toggler:nth-child(2) {
+      width: 70%;
+      margin-left: auto;
+    }
+  }
+}
+
+.toggler {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
 .navbar-link {
   position: relative;
+  &:hover {
+    color: var(--text-orange) !important;
+  }
 }
 
 .navbar-link::before {
@@ -23,6 +70,15 @@
   -o-transition: all 0.3s ease;
 }
 
-.navbar-link:hover::before, .navbar-link.active::before {
+.navbar-link:hover::before,
+.navbar-link.active::before {
   width: 100%;
+}
+
+#dropdown-language .dropdown-menu {
+  width: 50px !important;
+}
+
+.profile-btn {
+  border: 3px solid var(--yellow-color) !important;
 }

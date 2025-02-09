@@ -1,19 +1,19 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import "./blogs.css";
 import Loader from "../../components/loader/Loader";
 import { Image } from "react-bootstrap";
 import TrendingNow from "../../components/trendingNow/TrendingNow";
 import RecentPosts from "../../components/recentPosts/RecentPosts";
 
+import "./blogs.css";
 const App = () => {
-  const [blogs, setBlogs] = useState([]); // All blogs fetched from the API
-  const [filteredBlogs, setFilteredBlogs] = useState([]); // Blogs after applying search and filter
-  const [visibleBlogs, setVisibleBlogs] = useState(6); // Number of blogs to display
-  const [loading, setLoading] = useState(true); // Loading state
-  const [searchTerm, setSearchTerm] = useState(""); // Search term
-  const [selectedCategory, setSelectedCategory] = useState("All"); // Selected category for filtering
+  const [blogs, setBlogs] = useState([]); 
+  const [filteredBlogs, setFilteredBlogs] = useState([]); 
+  const [visibleBlogs, setVisibleBlogs] = useState(6); 
+  const [loading, setLoading] = useState(true); 
+  const [searchTerm, setSearchTerm] = useState(""); 
+  const [selectedCategory, setSelectedCategory] = useState("All"); 
 
   // Fetch blogs from the API
   useEffect(() => {

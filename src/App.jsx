@@ -9,8 +9,8 @@ import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
 import Blogs from "./pages/blogs/Blogs";
 import BlogDetails from "./pages/blogs/blogDetails/BlogDetails";
-import Login from "./pages/login/login";
 import NotFound from "./pages/NotFound/NotFound";
+import Login from "./pages/Auth/Login";
 function App() {
   return (
     <Router>
