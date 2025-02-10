@@ -50,12 +50,10 @@
 
 .navbar-link {
   position: relative;
-  &:hover {
-    color: var(--text-orange) !important;
-  }
+  
 }
 
-.navbar-link::before {
+/* .navbar-link::before {
   content: "";
   position: absolute;
   bottom: 5px;
@@ -73,6 +71,14 @@
 .navbar-link:hover::before,
 .navbar-link.active::before {
   width: 100%;
+} */
+
+#dropdown-language .dropdown-menu {
+  width: 50px !important;
+}
+
+.profile-btn {
+  border: 3px solid var(--yellow-color) !important;
 }
 
 #dropdown-language .dropdown-menu {

@@ -5,6 +5,11 @@
   background-size: cover;
 }
 
+.hideBg {
+  background-image: none;
+  background-color: transparent;
+}
+
 /* Swiper Container */
 .swiper-container {
   width: 100%;

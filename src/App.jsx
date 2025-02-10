@@ -11,6 +11,7 @@ import Blogs from "./pages/blogs/Blogs";
 import BlogDetails from "./pages/blogs/blogDetails/BlogDetails";
 import NotFound from "./pages/NotFound/NotFound";
 import Login from "./pages/Auth/Login";
+import Signup from "./pages/Auth/Signup";
 function App() {
   return (
     <Router>
@@ -22,6 +23,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:id" element={<BlogDetails />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

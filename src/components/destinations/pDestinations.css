@@ -1,0 +1,15 @@
+.arrow-btn {
+  background-color: var(--light-text);
+  color: #000;
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+  width: 25px;
+  height: 25px;
+  &:hover {
+    background-color: #000 !important;
+    color: #fff;
+  }
+}
