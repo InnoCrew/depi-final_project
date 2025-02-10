@@ -2,6 +2,8 @@ import { Container, Form, InputGroup, Button } from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
 import TrendingNow from "../../components/trendingNow/TrendingNow";
 import PopularDestinations from "../../components/destinations/PopularDestinations";
+import TravelEssentials from "../../components/TravelEssentials/TravelEssentials";
+import Testimonial from "../../components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       </Form>
       <TrendingNow hideBg />
       <PopularDestinations />
+      <TravelEssentials />
+      <Testimonial />
     </Container>
   );
 };
