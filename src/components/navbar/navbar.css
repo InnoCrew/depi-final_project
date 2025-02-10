@@ -80,3 +80,11 @@
 .profile-btn {
   border: 3px solid var(--yellow-color) !important;
 }
+
+#dropdown-language .dropdown-menu {
+  width: 50px !important;
+}
+
+.profile-btn {
+  border: 3px solid var(--yellow-color) !important;
+}
