@@ -68,3 +68,16 @@ body {
 .main-transition {
   transition: var(--main-transition);
 }
+
+.text-orange-hover {
+  transition: var(--main-transition);
+  -webkit-transition: var(--main-transition);
+  -moz-transition: var(--main-transition);
+  -ms-transition: var(--main-transition);
+  -o-transition: var(--main-transition);
+  &:hover {
+    color: var(--orange-color);
+  }
+}
+
+

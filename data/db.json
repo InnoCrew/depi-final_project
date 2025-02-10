@@ -562,7 +562,173 @@
       ]
     }
   ],
-  "users": [
-    
+  "users": [],
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Bali",
+      "numberOfBlogs": 8,
+      "places": [
+        "Ubud",
+        "Tegallalang Rice Terraces",
+        "Monkey Forest",
+        "Kuta",
+        "Nusa Penida"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1508057198894-247b23fe5ade",
+      "routeLink": "/destinations/bali"
+    },
+    {
+      "id": 2,
+      "name": "Paris",
+      "numberOfBlogs": 20,
+      "places": [
+        "Eiffel Tower",
+        "Seine River",
+        "Louvre Museum",
+        "Montmartre",
+        "Sacré-Cœur Basilica"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1431274172761-fca41d930114",
+      "routeLink": "/destinations/paris"
+    },
+    {
+      "id": 3,
+      "name": "Grand Canyon",
+      "numberOfBlogs": 10,
+      "places": ["South Rim", "Bright Angel Trail", "Colorado River"],
+      "coverImage": "https://images.unsplash.com/photo-1509316785289-025f5b846b35",
+      "routeLink": "/destinations/grand-canyon"
+    },
+    {
+      "id": 4,
+      "name": "Kyoto",
+      "numberOfBlogs": 12,
+      "places": [
+        "Fushimi Inari Shrine",
+        "Kinkaku-ji",
+        "Arashiyama Bamboo Grove"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3",
+      "routeLink": "/destinations/kyoto"
+    },
+    {
+      "id": 5,
+      "name": "Amalfi Coast",
+      "numberOfBlogs": 5,
+      "places": ["Sorrento", "Positano", "Amalfi", "Capri"],
+      "coverImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963",
+      "routeLink": "/destinations/amalfi-coast"
+    },
+    {
+      "id": 6,
+      "name": "Iceland",
+      "numberOfBlogs": 50,
+      "places": [
+        "Seljalandsfoss",
+        "Jökulsárlón Glacier Lagoon",
+        "Golden Circle"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1476610182048-b716b8518aae",
+      "routeLink": "/destinations/iceland"
+    },
+    {
+      "id": 7,
+      "name": "Thailand",
+      "numberOfBlogs": 30,
+      "places": ["Bangkok", "Chiang Mai", "Floating Markets"],
+      "coverImage": "https://images.unsplash.com/photo-1526318896980-cf78c088247c",
+      "routeLink": "/destinations/thailand"
+    },
+    {
+      "id": 8,
+      "name": "Machu Picchu",
+      "numberOfBlogs": 4,
+      "places": ["Inca Trail", "Sacred Valley", "Cusco"],
+      "coverImage": "https://images.unsplash.com/photo-1526392060635-9d6019884377",
+      "routeLink": "/destinations/machu-picchu"
+    },
+    {
+      "id": 9,
+      "name": "Maldives",
+      "numberOfBlogs": 45,
+      "places": ["Male", "Overwater Bungalows", "Coral Reefs"],
+      "coverImage": "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2",
+      "routeLink": "/destinations/maldives"
+    },
+    {
+      "id": 10,
+      "name": "Kenya",
+      "numberOfBlogs": 33,
+      "places": ["Maasai Mara", "Amboseli National Park", "Nairobi"],
+      "coverImage": "https://images.unsplash.com/photo-1523805009345-7448845a9e53",
+      "routeLink": "/destinations/kenya"
+    },
+    {
+      "id": 11,
+      "name": "Tokyo",
+      "numberOfBlogs": 20,
+      "places": ["Shibuya", "Asakusa", "Harajuku", "Shimokitazawa"],
+      "coverImage": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+      "routeLink": "/destinations/tokyo"
+    },
+    {
+      "id": 12,
+      "name": "Swiss Alps",
+      "numberOfBlogs": 26,
+      "places": ["Zermatt", "Lauterbrunnen Valley", "Matterhorn"],
+      "coverImage": "https://images.unsplash.com/photo-1503614472-8c93d56e92ce",
+      "routeLink": "/destinations/swiss-alps"
+    },
+    {
+      "id": 13,
+      "name": "Italy",
+      "numberOfBlogs": 34,
+      "places": ["Rome", "Florence", "Bologna", "Naples", "Sicily"],
+      "coverImage": "https://images.unsplash.com/photo-1533777324565-a040eb52facd",
+      "routeLink": "/destinations/italy"
+    },
+    {
+      "id": 14,
+      "name": "Rome",
+      "numberOfBlogs": 21,
+      "places": ["Colosseum", "Roman Forum", "Pantheon", "Vatican City"],
+      "coverImage": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+      "routeLink": "/destinations/rome"
+    },
+    {
+      "id": 15,
+      "name": "Seychelles",
+      "numberOfBlogs": 13,
+      "places": ["Beachfront Villas", "Coral Reefs", "Praslin", "La Digue"],
+      "coverImage": "https://images.unsplash.com/photo-1506929562872-bb421503ef21",
+      "routeLink": "/destinations/seychelles"
+    },
+    {
+      "id": 16,
+      "name": "New York",
+      "numberOfBlogs": 65,
+      "places": [
+        "Times Square",
+        "Central Park",
+        "Statue of Liberty",
+        "Brooklyn"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee",
+      "routeLink": "/destinations/new-york"
+    },
+    {
+      "id": 17,
+      "name": "Patagonia",
+      "numberOfBlogs": 7,
+      "places": [
+        "Torres del Paine National Park",
+        "W Trek",
+        "Glaciers",
+        "Lakes"
+      ],
+      "coverImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+      "routeLink": "/destinations/patagonia"
+    }
   ]
 }

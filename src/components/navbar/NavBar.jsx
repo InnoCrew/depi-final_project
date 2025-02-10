@@ -17,6 +17,7 @@ const navLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Categories", path: "/categories" },
+  { name: "Destinations", path: "/destinations" },
   { name: "Blogs", path: "/blogs" },
   { name: "News", path: "/news" },
   { name: "Contact", path: "/contact" },
@@ -34,7 +35,7 @@ const NavBar = () => {
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary " sticky="top">
-      <Container fluid className="px-4">
+      <Container fluid className="px-2">
         <Navbar.Brand href="#home">
           <img
             alt=""
@@ -102,6 +103,8 @@ const NavBar = () => {
               >
                 {theme === "light" ? <FaMoon /> : <FaSun />}
               </Button>
+
+              {/* Sign In Button */}
 
               {/* Sign In Button */}
             </div>

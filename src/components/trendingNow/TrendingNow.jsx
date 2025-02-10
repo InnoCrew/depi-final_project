@@ -93,9 +93,9 @@ const blogPosts = [
   },
 ];
 
-const TrendingNow = () => {
+const TrendingNow = ({ hideBg }) => {
   return (
-    <section className="section-box py-5 trending">
+    <section className={`section-box py-5 trending  ${hideBg && "hideBg"}`}>
       <div className="container">
         <div className="row mb-4">
           <div className="col-md-6">
@@ -122,7 +122,7 @@ const TrendingNow = () => {
         >
           {blogPosts.map((post) => (
             <SwiperSlide key={post.id}>
-              <BlogCard post={post} />
+              <BlogCard post={post}  />
             </SwiperSlide>
           ))}
         </Swiper>
